@@ -40,6 +40,5 @@ public class CategoryServiceImplTest {
     @Test
     public void save() {
         ProductCategory productCategory = new ProductCategory("男生专享", 8);
-
     }
 }
