@@ -17,6 +17,7 @@ public class OrderDTO {
 
     private String buyerPhone;
 
+
     private String buyerAddress;
 
     private String buyerOpenid;
