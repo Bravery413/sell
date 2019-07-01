@@ -5,7 +5,7 @@ spring:
     password: 123456
     url: jdbc:mysql://192.168.31.19/sell?characterEncoding=utf-8&useSSL=false
     jpa:
-       show-sql: true
+      show-sql: true
     jackson:
       default-property-inclusion: non_null
   resources:
@@ -26,3 +26,7 @@ server:
 wechat:
   mpAppId: wx29bc5201b9a80016
   mpAppSecret: 205a10aed8828750e04738cdbc1f91db
+  mchId: 1409146202
+  mchKey: c976503d34ca432c601361f969fd8d85
+  keyPath: /var/weixin_cert/h5.p12
+  notifyUrl: http://gdufe.nat300.top/sell/pay/notify
