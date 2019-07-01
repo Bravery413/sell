@@ -8,6 +8,8 @@ spring:
        show-sql: true
     jackson:
       default-property-inclusion: non_null
+  resources:
+    static-locations: classpath:/templates/,classpath:/static/
 server:
   context-path: /sell
   port: 8080
@@ -20,3 +22,7 @@ server:
 #    console: "%d-%msg"
 #    path: /var/log/tomcat
 #    file: /var/log/tomcat
+
+wechat:
+  mpAppId: wx29bc5201b9a80016
+  mpAppSecret: 205a10aed8828750e04738cdbc1f91db
