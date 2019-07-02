@@ -19,7 +19,6 @@ public class WeixinController {
         RestTemplate restTemplate = new RestTemplate();
         String response = restTemplate.getForObject(url, String.class);
         System.out.println(response);
-
     }
 
 }
